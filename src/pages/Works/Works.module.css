@@ -1,0 +1,51 @@
+/* Works.module.css */
+
+.works-container {
+  display: flex;
+  flex-direction: column;
+  align-items: top;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.gallery-container {
+  margin-bottom: 10px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; 
+}
+
+.thumbnail {
+  width: 100px; 
+  height: 100px; 
+  margin: 10px; 
+}
+
+.photo-card-container {
+  margin-bottom: 450px;
+  height: 100%;
+  border: 2px solid #ff6347;
+  
+}
+
+@media (min-width: 768px) {
+  .works-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .gallery-container {
+    flex-basis: 50%; 
+    margin-bottom: 0;
+  }
+
+  .photo-card-container {
+    flex-basis: 50%; 
+    margin-left: 20px; 
+    padding: 10px; 
+    box-sizing: border-box; 
+  }
+}

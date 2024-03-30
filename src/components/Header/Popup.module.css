@@ -1,0 +1,6 @@
+.overlay{
+    position: fixed;
+    background-color: aquamarine;
+    width: 130px;
+    color: black;
+}

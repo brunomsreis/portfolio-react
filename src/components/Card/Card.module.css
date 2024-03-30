@@ -1,0 +1,55 @@
+
+.card {
+  background: linear-gradient(to top left, #131313, #323232);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardImage {
+  margin-top: 25px;
+  width: 100px; 
+  height: auto; 
+}
+
+
+
+.imageContent {
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  padding: 20px;
+}
+
+.title {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.description {
+  color: #ccc;
+  font-size: 14px;
+}
+
+.textContent {
+  text-align: right;
+}
+
+
+
+.imageContent img {
+  margin-right: 10px;
+}
+
+
+.defaultContent {
+  text-align: center;
+}
